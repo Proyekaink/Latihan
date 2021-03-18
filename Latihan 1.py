@@ -11,8 +11,8 @@ else:
     print('calon donatur kampus')
 print('-'*10)
 
-jumlah_anak = 3
+jumlah_anak = 8
 
-for index_anak in range(1, jumlah_anak+1): #jumlah perulangan = 5 - 1 = 4
-    print(f'Halo anak #{index_anak}')
+for index_anak in range(1, 9): #jumlah perulangan = 5 - 1 = 4
+    print(f'Halo anak {index_anak}')
 

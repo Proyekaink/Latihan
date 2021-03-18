@@ -1,5 +1,5 @@
 print('Selamat Malam Dunia Tipu tipu')
-print('Tipe data skalar => tipe data sederhana')
+#Data skalar
 anak1 = 'Eko'
 anak2 = 'Dwi'
 anak3 = 'Tri'
@@ -10,14 +10,14 @@ print(anak2)
 print(anak3)
 print(anak4)
 
-print('\ntipe data list/daftar/array')
+print('\ntipe data list')
 anak = ['Eko', 'Dwi', 'Tri', 'Catur']
 print(anak)
-anak.append('haram')
+anak.append('Haram')
 print(anak)
 
-print('\nsapa anak haram')
-print(f'Hai {anak[4]}!')
+print('\nsapa anak Haram')
+print(f'Hai anak {anak[4]}!')
 
 print('\nSapa semua anak')
 for a in anak:
